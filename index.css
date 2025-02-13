@@ -1,0 +1,148 @@
+/* to make it move */
+@keyframes moveRightLeft {
+    0% {
+        transform: translateX(5px);
+    }
+    100% {
+        transform: translateX(10px);
+    }
+}
+/* My profil */
+.pdp{
+    border-radius: 80px 80px 30px 20px;
+    background-repeat: no-repeat;
+    background-size: 250px 250px;
+    box-shadow: 1px 2px 3px 2px;
+    margin-left: 557px;
+    position: relative;
+    animation: moveRightLeft 2s infinite alternate ease-in-out;
+}
+/* Name and Profession */
+.nom{
+    background-color:#272727;
+    border: 1px solid #ccc;
+    padding: 30px;
+    width: 500px;
+    height: 20px;
+    border-radius: 30px 10px 30px 10px;
+    text-align: center;
+    box-shadow: 2px 2px 5px 3px;
+    margin-left: 400px;
+    margin-top: 20px;
+}
+/* Andrianantenaina Heritiana */
+.nom h2{
+    position: relative;
+    top: -40px;
+    color: white;
+}
+/* Developpeur Web */
+.nom h3{
+    position: relative;
+    top: -55px;
+    color:#a4a49c;
+}
+/* the links b(img and p) */
+a{ 
+    border-radius: 150px;
+    margin-left: 5px;
+    padding: 5px;
+    text-align: center;
+    box-shadow: 1px 2px 2px 2px;
+    text-decoration: none;
+    color: white;
+    width: 20px;
+    height: 17px;  
+} 
+/* to change the color of links if clicked */
+a:hover{
+    color: yellow;
+}
+body{
+    background-image: url(./soleil.jpg);
+    background-repeat: no-repeat;
+    background-size: 1370px 800px;
+}
+.telephone{
+    display: flex;
+    gap: 20px;
+    margin-top: 5px;
+    margin-left: 75px;
+    
+}
+.mail{
+    display: flex;
+    gap: 20px;
+    margin-top: -5px;
+    margin-left: 75px;
+}
+.github{
+    display: flex;
+    gap: 20px;
+    margin-top: -5px;
+    margin-left: 75px;
+}
+.linkedin{
+    display: flex;
+    gap: 20px;
+    margin-top: -5px;
+    margin-left: 75px;
+}
+.telephone1{
+    border-radius: 15px;
+    background-color: #a4a49c;
+    height: 30px;
+    margin-left: -5px;
+}
+.mail1{
+    border-radius: 15px;
+    background-color: #a4a49c;
+    height: 30px;
+    margin-left: -5px;
+}
+.github1{
+    border-radius: 15px;
+    background-color: #a4a49c;
+    height: 30px;
+    margin-left: 70px;
+    margin-left: -5px;
+}
+.linkedin1{
+    border-radius: 15px;
+    background-color: #a4a49c;
+    height: 30px;
+    margin-left: 70px;
+    margin-left: -5px;
+}
+.contact{
+    box-shadow: 10px 10px 10px 2px;
+    border: 1px solid;
+    width: 500px;
+    height: 187px;
+    border-radius: 20px 70px 20px 70px;
+    margin-left: 100px;
+    background-color:#272727;
+    margin-left: 450px;
+    margin-top: 10px;
+    color: rgb(148, 140, 140);
+}
+#visuel{
+    position: absolute;
+    border: 1px solid white;
+    border-radius: 70px 20px 70px 20px;
+    position: absolute;
+    left: 350px;
+    top: 30px;
+    width:600px;
+    height: 600px;
+    border-color: #a4a49c;
+    background-image: url(./plage.jfif);
+    background-repeat: no-repeat;
+    background-size: 600px;
+}
+.container{
+    position: relative;
+    top: 20px;
+    right: 385px;
+}
+
