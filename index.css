@@ -36,6 +36,7 @@
     top: -40px; */
     margin: 0;
     color: white;
+    text-align: center;
 }
 /* Developpeur Web */
 .nom h3{
@@ -43,6 +44,7 @@
     top: -55px; */
     margin: 0;
     color:#a4a49c;
+    text-align: center;
 }
 /* the links b(img and p) */
 a{ 
@@ -182,11 +184,49 @@ body {
     align-items: center;
 }
 
-@media (max-width: 470px) {
+/* @media (max-width: 470px) {
     #visuel {
         border-radius: 0px;
         height: 100vh;
         width: 100%;
     }
     
+} */
+@media (max-width: 767px) {
+        #visuel {
+        width: 100%;
+        border-radius: 0;
+        padding: 32px;
+    }
+
+
+    .container {
+        gap: 16px;
+    }
+
+    .pdp {
+        width: 150px;
+    }
+
+    .nom {
+        width: 300px;
+        text-align: center;
+        padding: 10px;
+        align-items: center;
+        
+    }
+    .contact {
+        width: auto;
+        padding: 16px;
+        text-align: center;
+    }
+
+    .contact .elt {
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    .contact img {
+        height: 24px;
+    }
 }
