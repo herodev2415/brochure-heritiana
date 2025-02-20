@@ -196,7 +196,10 @@ body {
         #visuel {
         width: 100%;
         border-radius: 0;
-        padding: 32px;
+        padding: 95px;
+    }
+    body{
+        width: 100%;
     }
 
 
