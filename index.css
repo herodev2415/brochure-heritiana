@@ -194,9 +194,10 @@ body {
 } */
 @media (max-width: 767px) {
         #visuel {
-        width: 100%;
+        width: auto;
         border-radius: 0;
         padding: 95px;
+        position: fixed;
     }
     body{
         width: 100%;
